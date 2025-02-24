@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+
+
+:root {
+    --cor01:#F2F2F2;
+    --cor02:#A3BF3B;
+    --cor03:#76BF41;
+    --cor04:#025928;
+    --cor04:#3791A6;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to right, var(--cor02),var(--cor03));
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 3em;
+    
+}
+
+header p {
+    font-size: 1.5em;
+    max-width: 500px;
+    margin: auto;
+}
+
+nav {
+    background-image: linear-gradient(to right, var(--cor02),var(--cor03));
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.452);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin: 15px;
+    transition-duration: 0.5s;
+    padding: 10px;
+}
+    
+
+
+nav a:hover {
+    background-color: black;
+    
+}
+
+main {
+    background-color: var(--cor01);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+
+main > h1 {
+    background-image: linear-gradient(to right,var(--cor03),transparent);
+    padding: 5px;
+    font-size: 3em;
+    border-radius: 5px;
+    text-indent: 10px;
+    
+}
+
+main > h2 {
+    background-image: linear-gradient(to right,var(--cor03),transparent);
+    padding: 5px;
+    font-size: 2.5em;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+main > h3 {
+    background-image: linear-gradient(to right,var(--cor03),transparent);
+    padding: 5px;
+    font-size: 2em;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+main > h4 {
+    background-image: linear-gradient(to right,var(--cor03),transparent);
+    padding: 5px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+div > img {
+    
+}
+
+footer > p {
+    background-color: var(--cor04);
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    margin: 0px 0px -5px -5px;
+    text-align: center;
+}

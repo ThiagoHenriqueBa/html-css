@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    
+}
+
+header {
+    background-color: #1B5936;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    font: italic bold 50px arial, sans-serif;
+    text-align: center;
+}
+
+.subtitulo{
+    font: italic bold 20px arial, sans-serif;
+    text-align: center;
+}
+
+header > a {
+    text-align: right;
+    margin-right:30px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    text-align: left;
+    box-shadow: 5px 5px 15px #1E5959;
+    border-radius: 10px;
+    width: 850px;
+    right: auto; 
+    margin: auto;
+    padding: 10px;
+    
+}
+
+div > img :hover {
+    text-align: center;
+    margin: auto;
+}
+
+.android3 {
+    text-align: center;
+    margin: center;
+}
+
+main > p {
+    text-justify: auto;
+}
+
