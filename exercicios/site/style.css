@@ -62,6 +62,14 @@ main {
     max-width: 1000px;
     margin: auto;
     text-align: justify;
+    padding: 20px;
+}
+
+main p {
+    padding: 2px 6px;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
 }
 
 main > h1 {
