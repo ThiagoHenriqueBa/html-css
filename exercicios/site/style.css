@@ -78,6 +78,7 @@ main > h1 {
     font-size: 3em;
     border-radius: 5px;
     text-indent: 10px;
+    margin: -20px -0px 0px -20px;
     
 }
 
@@ -87,6 +88,7 @@ main > h2 {
     font-size: 2.5em;
     border-radius: 5px;
     text-indent: 10px;
+    margin: -3px -0px 0px -20px;
 }
 
 main > h3 {
@@ -95,25 +97,28 @@ main > h3 {
     font-size: 2em;
     border-radius: 5px;
     text-indent: 10px;
+    margin: -3px -0px 0px -20px;
 }
 
 main > h4 {
     background-image: linear-gradient(to right,var(--cor03),transparent);
     padding: 5px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     border-radius: 5px;
     text-indent: 10px;
+    margin: -2px 0px 0px -20px;
 }
 
 div > img {
-    
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
-
 footer > p {
     background-color: var(--cor04);
     color: white;
     font-size: 1em;
     padding: 10px;
-    margin: 0px 0px -5px -5px;
+    margin: -23px 0px -5px -5px;
     text-align: center;
 }
