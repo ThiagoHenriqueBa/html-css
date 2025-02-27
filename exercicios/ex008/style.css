@@ -1,1 +1,13 @@
 @charset "UTF-8";
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    background-attachment: scroll;
+     
+}
